@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>星团语词汇测试</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f3f4f6;
+text-align:center;
+margin-top:80px;
+}
+
+#card{
+width:500px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+#word{
+font-size:28px;
+margin-bottom:20px;
+}
+
+button{
+display:block;
+width:100%;
+margin:8px 0;
+padding:12px;
+font-size:16px;
+border:none;
+border-radius:6px;
+background:#e5e7eb;
+cursor:pointer;
+}
+
+button:hover{
+background:#d1d5db;
+}
+
+#next{
+background:#3b82f6;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>星团语词汇测试</h1>
+
+<div id="card">
+
+<div id="progress"></div>
+
+<div id="word"></div>
+
+<div id="options"></div>
+
+<button id="next" onclick="nextQuestion()">下一题</button>
+
+<div id="score"></div>
+
+</div>
+
+<script src="words.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
